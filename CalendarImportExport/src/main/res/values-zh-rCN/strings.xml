@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="account_name">账户名称</string>
+    <string name="account_type">账户类型</string>
+    <string name="actions">操作</string>
+    <string name="active">启用</string>
+    <string name="add_reminder">添加提醒</string>
+    <string name="app_name">日历导入导出</string>
+    <string name="calendar_selection">日历选择</string>
+    <string name="calendar_url">日历 URL</string>
+    <string name="delete">删除</string>
+    <string name="delete_entries">删除条目</string>
+    <string name="destination_filename">目标文件名</string>
+    <string name="did_not_check_for_dupes">未检查重复项。</string>
+    <string name="enter_destination_filename">输入目标文件名</string>
+    <string name="enter_source_url">输入来源 URL</string>
+    <string name="error">错误</string>
+    <string name="events">事件</string>
+    <string name="help">帮助</string>
+    <string name="id">ID</string>
+    <string name="import_file">导入文件</string>
+    <string name="import_network">导入 URL</string>
+    <string name="inactive">未启用</string>
+    <string name="information">信息</string>
+    <string name="insert_entries">插入条目</string>
+    <string name="invalid_url">无效 URL</string>
+    <string name="legal_notices">法律声明</string>
+    <string name="load_calendar">加载</string>
+    <string name="login_required">需要登录</string>
+    <string name="name">名称</string>
+
+    <string name="no_calendars_found">未找到任何日历。\n\n你必须创建一个日历来进行导入/导出。你可以安装 “离线日历（Offline Calendar）” 来创建一个。\n\n如果你在使用 CyanogenMod，请确保已为此应用关闭隐私保护，以允许日历读写。\n\n如果你使用的是 Android 4.3 App Ops，请确保已允许此应用的日历读写权限。</string>
+
+    <string name="not_applicable">不适用</string>
+    <string name="owner">拥有者</string>
+    <string name="password">密码</string>
+    <string name="processing_entries">正在处理条目&#8230;</string>
+    <string name="reading_file_please_wait">正在读取文件，请稍候&#8230;</string>
+    <string name="searching_for_files">正在搜索 iCalendar 文件&#8230;</string>
+    <string name="select_a_calendar">选择一个日历</string>
+    <string name="settings">设置</string>
+    <string name="space"> </string>
+    <string name="state">状态</string>
+    <string name="suggest">建议</string>
+    <string name="timezone">时区</string>
+    <string name="username">用户名</string>
+    <string name="writing_calendar_to_file">正在将日历写入文件&#8230;</string>
+    <string name="permissions_not_granted">必要的权限尚未授予！</string>
+
+    <plurals name="delete_n_entries">
+         <item quantity="one">删除 %d 个条目</item>
+         <item quantity="other">删除 %d 个条目</item>
+    </plurals>
+    <plurals name="found_n_duplicates">
+         <item quantity="one">找到 %d 个重复条目。</item>
+         <item quantity="other">找到 %d 个重复条目。</item>
+    </plurals>
+    <plurals name="insert_n_entries">
+         <item quantity="one">插入 %d 个条目</item>
+         <item quantity="other">插入 %d 个条目</item>
+    </plurals>
+    <plurals name="processed_n_entries">
+         <item quantity="one">已处理 %d 个条目。</item>
+         <item quantity="other">已处理 %d 个条目。</item>
+    </plurals>
+    <plurals name="wrote_n_events_to">
+         <item quantity="one">已写入 %1$d 个事件到 %2$s</item>
+         <item quantity="other">已写入 %1$d 个事件到 %2$s</item>
+    </plurals>
+    <plurals name="created_n_uids_to">
+        <item quantity="one">已创建 %1$d 个新的 UID</item>
+        <item quantity="other">已创建 %1$d 个新的 UID</item>
+    </plurals>
+
+    <!-- Must match the minutes array in RemindersDialog.java -->
+    <string-array name="reminder_time_values">
+        <item>5 分钟</item>
+        <item>10 分钟</item>
+        <item>15 分钟</item>
+        <item>30 分钟</item>
+        <item>45 分钟</item>
+        <item>1 小时</item>
+        <item>2 小时</item>
+        <item>4 小时</item>
+        <item>8 小时</item>
+        <item>12 小时</item>
+        <item>24 小时</item>
+        <item>48 小时</item>
+        <item>3 天</item>
+        <item>4 天</item>
+        <item>5 天</item>
+        <item>6 天</item>
+        <item>1 周</item>
+        <item>2 周</item>
+        <item>3 周</item>
+        <item>1 个月</item>
+    </string-array>
+
+</resources>
